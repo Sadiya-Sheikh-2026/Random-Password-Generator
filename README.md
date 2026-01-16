@@ -63,4 +63,20 @@ From this I was able to see that there was a bug in the JavaScript file which ha
 After every code change whether it was a change to the HTML, JS or CSS file I always did a local test to see if the changes had been implemented. For example, after I had written and linked the CSS file, I refreshed the app and was able to see if the colours now appeared and if the fonts had updated. 
 
 ### Other tests
-Due to time constraints I was unable to fdo further testing such as unittests and Test Driven Development but if there was more time I would have implemented these. 
+Due to time constraints I was unable to do further testing such as unittests and Test Driven Development but if there was more time I would have implemented these. 
+
+## User Documentation
+The purpose of this section is to show the user how they can use this application locally on their computer.
+
+1. Begin by cloning the repository to your chosen directory.
+2. From there open the cloned repository in your file explorer which should look like this:
+
+   ![image of the app repo stored locally after cloning from GitHub](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/file_explorer.png)
+
+3. Then click on the app.html file which is this one:
+   ![image of the app repo stored locally after cloning from GitHub with the HTML file with a box around it](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/file_explorer_box.png)
+
+4. The app should now be open in your browser! And should look like this:
+
+   ![image of the app repo stored locally after cloning from GitHub with the HTML file with a box around it](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/live_app.png)
+
