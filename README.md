@@ -32,6 +32,21 @@ For the GitHub issues I also customised the labels to better suit the project. T
 
 ![image of user persona](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/issue_labels.png)
 
+## Code production steps
+For this web app I needed to create 3 files; a HTML file, a JavaScript (JS) file and a CSS file. The HTML file is needed to create the form that the user can provide inputs for, the JS file takes these inputs and contains a random password generator function which produces the output and the CSS file is used to set the style for the app such as colours and fonts. I used Visual Studio Code to write these scripts and pushed them to the repository at each stage.
+
+The most basic version of the app requires just the HTML file and JS file so I focussed on these first before creating the CSS file at the end. The steps I took to create these files can be found below:
+
+1. HTML file creation - I began by creating a HTML file that contained just an area to enter the length of the password and a button that later can be clicked to generate a password. This was part of the 'Preparation' stage so the aim at this point was to just have something that can be added to the repository. In the head section of the file I specified what the name of the application should be as well as other meta data. At this point I had not set the style of the web app as I had not created a CSS file for that yet.
+2. I then created the initial JS file which simply took the user input for the length of the password and also made the 'generate password' button clickable. Again this was part of the 'Preparation' stage so only these functionalities were added just so that there was a JS file ready to push to the repository.
+3. The next step was to link the HTML file to the JS file. I did this by using the line `<script src="app.js"></script>` after closing the body section of the HTML file as recommended in the course. I checked this locally before pushing by seeing if the button is clickable which it was. I then pushed this change to the repository.
+4. Next the main coding stage began. I first expanded the HTML file, particularly the form section of the body to add further fields to the app such as checkboxes for the options available and an output box where the generated password is displayed. I also included the unique id tag in each item so that I can refer to them in the JS file so that user inputs can be used. Again I checked locally if this was visible and then pushed the change.
+5. Next, I worked on the JS file by referring to the unique ID tags and allowing the program to capture the user inputs from the number input for the length of the password and the checkboxes for uppercase letters, special characters and numbers.
+6. I then created the generateRandomPassword function in the JS file which uses if statements to create the pool of characters to choose from for the password and then I used Math.random to create a random combination of the pool which is the password. Then I made sure that this value was visible in the output box. I tested this locally before pushing.
+7. The app is now functioning which is great but it looked bland and unappealing as it was plain. To fix this I created the CSS file. I named the file app.css and I set out the styles for the app such as the sizes of each box and the fonts for the text. I also set the colours using hex codes and preloaded colours and was able to almost match my prototype. I also centred the app to take up the middle 50% of the screen rather than it being skewed on one side as this looks more professional.
+8. To apply these style changes I had to link this CSS file in the HTML file. I did so by adding the line `<link rel="stylesheet" href="app.css">` to the head section of the HTML file. I then refreshed the web app and was able to see the changes so I pushed the changes for both the files.
+9. The app is now complete!
+
 ## Testing the app
 ### Initial basic test
 After completing the initial HTML and JavaScript codes I decided to test out the app for myself. I began by launching it locally from my computer and the application looked as expected. I then ticked all the checkboxes and clicked the 'Generate Password' button and the application seemed to work as intended as you can see here:
@@ -44,4 +59,8 @@ However, with further testing I noticed that when selecting just to include spec
 
 ![image of the initial app after selecting the 'numbers' option](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/app_test_1.3.png)
 
-From this I was able to see that there was a bug in the JavaScript file which had swapped the funcitonality of the two buttons. Following this I was able to edit the file to fix the bug.
+From this I was able to see that there was a bug in the JavaScript file which had swapped the funcitonality of the two buttons. Following this I was able to edit the file to fix the bug. 
+After every code change whether it was a change to the HTML, JS or CSS file I always did a local test to see if the changes had been implemented. For example, after I had written and linked the CSS file, I refreshed the app and was able to see if the colours now appeared and if the fonts had updated. 
+
+### Other tests
+Due to time constraints I was unable to fdo further testing such as unittests and Test Driven Development but if there was more time I would have implemented these. 
