@@ -20,7 +20,7 @@ To prototype my ideal app I used Figma to create a colour static prototype of my
 This successfuly shows the basic structure of the application I aimed to create.
 
 ## Project Management 
-I first decided to set out my project into stages. They can overall be grouped into; preparation, code development, testing and launch. The overall plan can be seen visually here:  
+I first decided to set out my project into stages. They can overall be grouped into; preparation, code development, testing and launch. The method I used for project management was agile with sprints. Within each stage I conducted sprints to complete the stages as quickly as possible and move through the requirements. Of course, some stages have to be done in a certain order so these sections may be closer to the Waterfall project management technique. The overall plan can be seen visually here:  
 
 ![image of user persona](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/project_timeline.png)
 
@@ -79,4 +79,11 @@ The purpose of this section is to show the user how they can use this applicatio
 4. The app should now be open in your browser! And should look like this:
 
    ![image of the app repo stored locally after cloning from GitHub with the HTML file with a box around it](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/live_app.png)
+
+## Evaluation
+Overall, this project taught me a lot and was very enjoyable especially because I had almost no experience with GitHub in the past. 
+
+I found that using the Kanban to manage the tickets was a highly effective way to stay organised as I was able to set up a group of issues at a time and then track their progress. This was a solo project but I can see how this would be really helpful when collaborating with colleagues so that people do not duplicate work so this is something I may introduce in my role at work. I found writing the scripts really enjoyable and especially being able to tweak things in them and test such as changing various colours and sizes of boxes etc. Overall, the app can now be used for its intended purpose and looks similar to the prototype I had created in Figma and most importantly meets the needs of the average user such as 'Steve'.
+
+Since this was a MVP, I had more functionalities that I did not add but would add in later versions such as introducing a colour blind friendly colour palette as well as a more complex version of the app where users can securely store the generated passwords in a secure location but this of course would require more advanced coding to ensure the security of the passwords. 
 
