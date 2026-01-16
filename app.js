@@ -1,5 +1,22 @@
-// basic script for a 'Generate password' button which has the id of 'generate' in the html script, the process is triggered by a click
+const generateButton = document.getElementById('generate-box');
+const passwordInput = document.getElementById('password');
 
-const generateButton = document.getElementById('generate'); 
+generateButton.addEventListener('click', generateRandomPassword)
 
-generateButton.addEventListener('click')
+function generateRandomPassword() {
+    const length = parseInt(document.getElementById("length-box").value);
+    const uppercase = document.getElementById("uppercase-box").checked;
+    const specialChars = document.getElementById("special-chars-box").checked;
+    const numbers = document.getElementById("numbers-box").checked;
+
+    let chars = "abcdefghijklmnopqrstuvwxyz";
+    if (uppercase) chars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    if (specialChars) chars += "1234567890";
+    if (numbers) chars += "!£$%^&*()-_=+@][}{;:',./<>?|`¬";
+
+    let password = "";
+    for (let k = 0; k < length; k++) {
+        password += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    passwordInput.value = password
+}
