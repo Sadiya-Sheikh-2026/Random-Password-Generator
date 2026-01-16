@@ -11,8 +11,8 @@ function generateRandomPassword() {
 
     let chars = "abcdefghijklmnopqrstuvwxyz";
     if (uppercase) chars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    if (specialChars) chars += "1234567890";
-    if (numbers) chars += "!£$%^&*()-_=+@][}{;:',./<>?|`¬";
+    if (specialChars) chars += "!£$%^&*()-_=+@][}{;:',./<>?|`¬";
+    if (numbers) chars += "1234567890";
 
     let password = "";
     for (let k = 0; k < length; k++) {
@@ -20,3 +20,4 @@ function generateRandomPassword() {
     }
     passwordInput.value = password
 }
+
