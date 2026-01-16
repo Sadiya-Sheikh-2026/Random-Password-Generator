@@ -19,6 +19,19 @@ To prototype my ideal app I used Figma to create a colour static prototype of my
 
 This successfuly shows the basic structure of the application I aimed to create.
 
+## Project Management 
+I first decided to set out my project into stages. They can overall be grouped into; preparation, code development, testing and launch. The overall plan can be seen visually here: 
+
+![image of user persona](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/project_timeline.png)
+
+To handle the process smoothly, I used GitHub issues to manage the project. To me the most intuitive way to log the tasks that needed to be completed was a Kanban so I used GitHub Projects to create a Kanban view of my tickets so that I can keep track of the tickets. I edited the view to add an extra column called 'Postponed for later version' so that additional features can be kept track of and don't take up space in the 'to-do' section. An example of the Kanban in the middle of my project can be seen here:
+
+![image of user persona](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/kanban.png)
+
+For the GitHub issues I also customised the labels to better suit the project. The various labels and their descriptions can be seen here: 
+
+![image of user persona](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/issue_labels.png)
+
 ## Testing the app
 ### Initial basic test
 After completing the initial HTML and JavaScript codes I decided to test out the app for myself. I began by launching it locally from my computer and the application looked as expected. I then ticked all the checkboxes and clicked the 'Generate Password' button and the application seemed to work as intended as you can see here:
