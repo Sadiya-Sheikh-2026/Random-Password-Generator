@@ -20,7 +20,7 @@ To prototype my ideal app I used Figma to create a colour static prototype of my
 This successfuly shows the basic structure of the application I aimed to create.
 
 ## Project Management 
-I first decided to set out my project into stages. They can overall be grouped into; preparation, code development, testing and launch. The overall plan can be seen visually here: 
+I first decided to set out my project into stages. They can overall be grouped into; preparation, code development, testing and launch. The overall plan can be seen visually here:  
 
 ![image of user persona](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/project_timeline.png)
 
