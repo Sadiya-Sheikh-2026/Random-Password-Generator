@@ -10,6 +10,15 @@ To represent the average user I created a user persona in figma which can be see
 
 As seen above, it would be extremely helpful to have the password generator app as it would help the entire team to become more cybersecure. There is a continuous use case for the app as new members will inevitably join the team and will need to set up accounts on various platforms. Also, some platforms require users to change passwords often so it will also be of use then. Following this, I decided that it was appropriate to proceed with creating this web application.
 
+## Design and Prototype
+When thinking about the design of the application I aimed to make it look as simple as possible so that users are not afraid of using the app. Given that the average user will be someone like Steve who has many other tasks and responsibilities, I wanted to reduce the number of buttons and options so that the user does not have to spend a lot of time on the app. In order to do this I decided that only basic information would be collected and that the app would be visually simple. The basic information needed would include the length of the desired password and also what should be included in the password such as numbers, special characters or upper case letters. To simplify the app I decided to include checkboxes for the inclusion of particular characters and a simple text field to enter the length of the password as a number. After that the user simply needs to click a 'Generate password' button and the password is displayed. When thinking about the layout of these items I felt that a more vertical appearance would be most intuitive to use as it subconciously allows the user to flow through each option and then the output. 
+
+To prototype my ideal app I used Figma to create a colour static prototype of my application. This can be seen here: 
+
+![image of user persona](https://github.com/Sadiya-Sheikh-2026/Random-Password-Generator/blob/main/images/app_interface_prototype.png)
+
+This successfuly shows the basic structure of the application I aimed to create.
+
 ## Testing the app
 ### Initial basic test
 After completing the initial HTML and JavaScript codes I decided to test out the app for myself. I began by launching it locally from my computer and the application looked as expected. I then ticked all the checkboxes and clicked the 'Generate Password' button and the application seemed to work as intended as you can see here:
